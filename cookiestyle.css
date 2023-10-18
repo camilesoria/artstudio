@@ -1,0 +1,17 @@
+body {position: relative; background: white}
+.header {overflow: hidden; ; width: 100%; height: 143px; position: absolute; background: #001972; text-align: center;}
+.navigationbar {overflow:hidden; width: 100%; height: 50px; margin-right:500px; left: 0px; top: 143px; position:absolute; background: rgba(180.66, 193.04, 236.94, 0.80)}
+  .navigationbar a {float: none; display:inline-block; color: #f2f2f2; text-align: center; padding: 14px 16px; ; text-decoration:none; font-family: 'Lucida Sans', sans-serif;}
+  .navigationbar a:hover {max-width: 100%; background-color: #C4D1FF; color: #f2f2f2;}
+.imglogo {position:relative; margin-top: 15px;}
+.accimg {border-radius: 34px; border: 1px solid #B5C1ED; width: 34px; height: 34px; top: 5px ; float: right ; position:relative; margin-right: 10px;}
+.nvbtext { position: relative; color: black; font-size: 20px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ; font-weight: 400; word-wrap: break-word}
+.gradientmainline {width: 100%; height: 333px; left: 0px; top: 194px; position: absolute; background: linear-gradient(180deg, rgba(0, 0, 0, 0) 37%, rgba(0, 0, 0, 0.81) 100%)}
+.maintitle {left: 33px; position:relative; top: 65%; color: white; font-size: 40px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-weight: 400; word-wrap: break-word}
+.subtitulos {width: 217px; height: 26px; left: 42px; top: 560px; position: absolute; color: black; font-size: 24px; font-family: Inria Sans; font-weight: 400; word-wrap: break-word}
+.prevprograma {width: 180px; height: 115px; left: 42px; top: 921px; position: absolute; border-radius: 10px}
+.progthumbnail{width: 180px; height: 115px; left: 476px; top: 921px; position: absolute; border-radius: 10px}
+/*Espaço para anotações, pra não ter que ficar criando novas...
+Podem ser do tamanho que for necessário! 
+width: 180px; height: 115px; left: 259px; top: 921px; position: absolute; border-radius: 10px" src="https://via.placeholder.com/180x115
+*/
