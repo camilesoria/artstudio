@@ -1,4 +1,5 @@
 @font-face {font-family: 'Homenaje';src: url('Homenaje-Regular.ttf') format('truetype');}
-body {position: relative; background: white}
-.header {width: 100%; height: 130px;position: absolute; display:block; background: #B8B1B1; text-align: center;}
-.logofont{font-family: 'Homenaje', sans-serif; width: fit-content; height: 45px; color: black; font-size: 36px; font-weight: 400; word-wrap: break-word}
+body {position: relative; background: white;}
+.header {width: 100%; height:130px; position: absolute; background: #B8B1B1; text-align: center; display: block;}
+.logofont{font-family: 'Homenaje', sans-serif; color: black; height: 45px; font-size: 36px; font-weight: 400; word-wrap: break-word; display:contents;}
+/* <img src="Header content.png">
