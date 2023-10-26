@@ -1,5 +1,10 @@
-@font-face {font-family: 'Homenaje';src: url('Homenaje-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Homenaje'; src: url('Homenaje-Regular.ttf') format('truetype');}
+@font-face {font-family: 'HindMadurai-Regular'; src: url('HindMadurai-Regular.ttf') format('truetype');}
 body {position: relative; background: white;}
 .header {width: 100%; height:130px; position: absolute; background: #B8B1B1; text-align: center; display: block;}
-.logofont{font-family: 'Homenaje', sans-serif; color: black; height: 45px; font-size: 36px; font-weight: 400; word-wrap: break-word; display:contents;}
+.navbar{width: 100%; height: 35px; top: 128px; position: absolute; background: #E5E5E5; overflow: hidden; font-family: 'HindMadurai-Regular', sans-serif;font-size: 16px; font-weight: 400; word-wrap: break-word;}
+.navbar a {float: left; display: block; color: black; text-align: center; text-decoration: none; width: 140px; height: 34px; padding-top: 10px;}
+.navbar a:hover {background-color: #B8B1B1; color: #ffffff;}
 /* <img src="Header content.png">
+.logofont{font-family: 'Homenaje', sans-serif; color: black; height: 45px; font-size: 36px; font-weight: 400; word-wrap: break-word; display:contents;}
+padding: 14px 16px;
