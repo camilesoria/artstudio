@@ -4,20 +4,15 @@
 @font-face {font-family: 'Exo'; src: url('Exo-VariableFont_wght.ttf') format('truetype');}
 @font-face {font-family: 'Duru Sans'; src: url('DuruSans-Regular.ttf') format('truetype');}
 @media screen and (max-width: 400px){.navbar a {float: none; width: 100%;}}
-body {position: relative; background: white;}
+body {position: relative; background: white; max-width: 100%;}
 .header {width: 100%; height:130px; position: absolute; background: #B8B1B1; text-align: center; display: block;}
-.navbar {overflow: hidden;background-color: #E5E5E5; top: 128px; font-family: 'HindMadurai-Regular', sans-serif;font-size: 16px; font-weight: 400; word-wrap: break-word;}
+.navbar{width: 100%; height: 35px; top: 128px; position: absolute; background: #E5E5E5; overflow: hidden; font-family: 'HindMadurai-Regular', sans-serif;font-size: 16px; font-weight: 400; word-wrap: break-word;}
+.navbar a {float: left; display: block; color: black; text-align: center; text-decoration: none; width: 140px; height: 34px; padding-top: 10px;}
 .navbar a:hover {background-color: #B8B1B1; color: #ffffff;}
-.navbar a {float: left; font-size: 16px;color: black; text-align: center;padding: 14px 16px;text-decoration: none;}
-.dropdown {float: left;overflow: hidden;}
-.dropdown .dropbtn { font-size: 16px;  border: none; outline: none; color: black;padding: 14px 16px;background-color: inherit;font-family: inherit;margin: 0;}
-.navbar a:hover, .dropdown:hover .dropbtn { background-color: #B8B1B1;}
-.dropdown-content { display: none; position: absolute; background-color: #f9f9f9;min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;} 
-.dropdown-content a {float: none;color: black; padding: 12px 16px;text-decoration: none;display: block;text-align: left;}
-.dropdown-content a:hover { background-color: #B8B1B1; }
-.dropdown:hover .dropdown-content { display: block;}
-
 img {font-size: 25%; position: absolute; color: white; font-family: Exo; font-weight: 400; word-wrap: break-word}
 .tagtitle {width: fit-content; height: 109px; left: 5%; top: 203px; position: absolute; color: black; font-size: 32px; font-family: Comfortaa; font-weight: 400; word-wrap: break-word}
 .tagdescription{color: black; font-size: 16px; font-family: Duru Sans; font-weight: 400; word-wrap: break-word; width: fit-content; height: 109px; left: 5%; top: 203px; position: absolute; padding-top: 5%;}
-.card{padding: 20px; margin-top: 20px; width: fit-content; height: 480px; left: 964px; top: 385px; position: absolute}
+.card{padding: 20px; margin-top: 20px; width: fit-content; height: 480px; position: absolute; text-align: center;}
+/*
+.logofont{font-family: 'Homenaje', sans-serif; color: black; height: 45px; font-size: 36px; font-weight: 400; word-wrap: break-word; display:contents;}
+padding: 14px 16px;
