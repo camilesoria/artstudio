@@ -12,30 +12,40 @@
         <div class="header">
           <img style="width: 107px; height: 122px; top: 8px; position: absolute; mix-blend-mode: hard-light;" src="Group 2.png" /></div>
           <div class="navbar">
-            <a href="#">Minha Conta</a>
+            <a href="minhaconta.html">Minha Conta</a>
             <a href="#">Dados de compra</a>
             <a href="#">Enderço e contato</a>
           </div>
-          <span class="tagtitle">Minha Conta</span>
+          
         </div>
-        
-        <div class="card">
-          <div style="width: 1000px; height: 500px; background: #EBEBEB; border-radius: 5px; text-align: center;">
-          <div style="width: 249px; height: 71px; left: 41px; top: 26px; position: absolute; color: black; font-size: 64px; font-family: Homenaje; font-weight: 400; word-wrap: break-word">Minha Conta</div>
-          <div style="width: 510px; height: 50px; left: 41px; top: 166px; position: absolute; background: #D9D9D9"></div>
-          <div style="width: 267px; height: 23px; left: 41px; top: 119px; position: absolute; color: black; font-size: 20px; font-family: Hind Madurai; font-weight: 400; word-wrap: break-word">Nome de usuário</div>
-          <div style="width: 267px; height: 23px; left: 41px; top: 238px; position: absolute; color: black; font-size: 20px; font-family: Hind Madurai; font-weight: 400; word-wrap: break-word">Email</div>
-          <div style="width: 191px; height: 50px; left: 1061px; top: 650px; position: absolute; background: #B8B1B1; border-radius: 10px"></div>
-          <div style="width: 105px; height: 39px; left: 1104px; top: 656px; position: absolute; color: black; font-size: 40px; font-family: Homenaje; font-weight: 400; word-wrap: break-word">SALVAR</div>
-          <div style="width: 510px; height: 50px; left: 41px; top: 285px; position: absolute; background: #D9D9D9"></div>
-          <div style="width: 510px; height: 50px; left: 742px; top: 166px; position: absolute; background: #D9D9D9"></div>
-          <div style="width: 267px; height: 23px; left: 742px; top: 119px; position: absolute; color: black; font-size: 20px; font-family: Hind Madurai; font-weight: 400; word-wrap: break-word">Data de nascimento</div>
-          <div style="width: 267px; height: 23px; left: 742px; top: 238px; position: absolute; color: black; font-size: 20px; font-family: Hind Madurai; font-weight: 400; word-wrap: break-word">Gênero</div>
-          <div style="width: 510px; height: 50px; left: 742px; top: 285px; position: absolute; background: #D9D9D9"></div>
-          <div style="width: 267px; height: 23px; left: 41px; top: 357px; position: absolute; color: black; font-size: 20px; font-family: Hind Madurai; font-weight: 400; word-wrap: break-word">Biografia</div>
-          <div style="width: 510px; height: 200px; left: 41px; top: 404px; position: absolute; background: #D9D9D9"></div>
-        </div>
-        </div>
+          <div style="width: 1293px; height: 742px; left: 74px; top: 220px; position: absolute">
+            <div style="width: 1293px; height: 742px; left: 0px; top: 0px; position: absolute; background: #EBEBEB; border-radius: 5px"></div>
+            <span class="tagtitle">Minha Conta</span>
+            
+          
+          <form action="">
+            <label for="username" class="labelUsername">Nome de usuário:</label><br>
+            <input type="text" id="username" name="username" required class="inputUsername"><br>
+            <label for="email" class="labelEmail">Email:</label><br>
+            <input type="email" id="email" name="email" required class="inputEmail">
+
+            <label for="genero" class="labelGenero">Gênero:</label>
+            <select id="genero" name="genero" class="inputGenero">
+              <option value="" class="option"></option>
+              <option value="masculino" class="option">Masculino</option>
+              <option value="feminino" class="option">Feminino</option>
+              <option value="naobinario" class="option">Não-binário</option>
+              <option value="naoinforma" class="option">Prefiro não informar</option>
+            </select>
+            <input type="submit">
+
+            <label for="biografia" class="labelBiografia">Biografia:</label>
+            <input type="text" name="biografia" id="biografia" class="inputBiografia">
+            <label for="dnasc" class="labelDNasc">Data de nascimento:</label>
+            <input type="date" id="dnasc" name="dnasc" required class="inputDNasc">
+            <label for="salvar" class="btSubmit">SALVAR</label>
+            <input type="submit" name="salvar" id="salvar">
+          </form>
         </div>
           
       </body>

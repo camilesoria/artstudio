@@ -1,9 +1,9 @@
-@font-face {font-family: 'Homenaje'; src: url('Homenaje-Regular.ttf') format('truetype');}
-@font-face {font-family: 'HindMadurai-Regular'; src: url('HindMadurai-Regular.ttf') format('truetype');}
-@font-face {font-family: 'Comfortaa'; src: url('Comfortaa-VariableFont_wght.ttf') format('truetype');}
-@font-face {font-family: 'Exo'; src: url('Exo-VariableFont_wght.ttf') format('truetype');}
-@font-face {font-family: 'Duru Sans'; src: url('DuruSans-Regular.ttf') format('truetype');}
-@font-face {font-family: 'Convergence'; src: url('Convergence-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Homenaje'; src: url('Fontes/Homenaje-Regular.ttf') format('truetype');}
+@font-face {font-family: 'HindMadurai-Regular'; src: url('Fontes/HindMadurai-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Comfortaa'; src: url('Fontes/Comfortaa-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'Exo'; src: url('Fontes/Exo-VariableFont_wght.ttf') format('truetype');}
+@font-face {font-family: 'Duru Sans'; src: url('Fontes/DuruSans-Regular.ttf') format('truetype');}
+@font-face {font-family: 'Convergence'; src: url('Fontes/Convergence-Regular.ttf') format('truetype');}
 @media screen and (max-width: 400px){.navbar a {float: none; width: 100%;}}
 body {position: relative; background: white; max-width: 100%;}
 .header {
