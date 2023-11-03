@@ -6,7 +6,7 @@
 @font-face {font-family: 'Convergence'; src: url('Convergence-Regular.ttf') format('truetype');}
 
 @media screen and (max-width: 400px){.navbar a {float: none; width: 100%;}}
-body {position: relative; background: white;}
+body {position: relative; background-image: url('Imagens/minhacontaeloginbackground.png');}
 .header {width: 100%; height:130px; position: absolute; background: #B8B1B1; text-align: center; display: block;}
 .navbar {overflow: hidden;background-color: #B8B1B1; top: 128px; font-family: 'HindMadurai-Regular', sans-serif;font-size: 16px; font-weight: 400; word-wrap: break-word;}
 .navbar a:hover {background-color: #B8B1B1; color: #ffffff;}
@@ -21,4 +21,4 @@ body {position: relative; background: white;}
 img {font-size: 25%; position: absolute; color: white; font-family: Exo; font-weight: 400; word-wrap: break-word}
 .tagtitle {width: fit-content; height: 109px; left: 5%; top: 203px; position: absolute; color: black; font-size: 32px; font-family: Comfortaa; font-weight: 400; word-wrap: break-word}
 .tagdescription{color: black; font-size: 16px; font-family: Duru Sans; font-weight: 400; word-wrap: break-word; width: fit-content; height: 109px; left: 5%; top: 203px; position: absolute; padding-top: 5%;}
-.card{padding: 20px; margin-top: 20px; width: fit-content; height: 480px;}
+.card{width: fit-content;text-align: center;align-items: center; align-self: center; align-content: center;}
