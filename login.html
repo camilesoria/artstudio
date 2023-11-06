@@ -8,34 +8,48 @@
     <title>Login - ArtStudio</title>
 </head>
 <body>
-    <div style="width: 100%; height: 100%; position: relative; background: #DF8989">
-        <img style="width: 248px; height: 355px; left: 0px; top: 544px; position: absolute" src="https://via.placeholder.com/248x355" />
-        <img style="width: 364px; height: 207px; left: 0px; top: 337px; position: absolute" src="https://via.placeholder.com/364x207" />
-        <img style="width: 619.07px; height: 343px; left: 0px; top: 0px; position: absolute" src="https://via.placeholder.com/619x343" />
-        <img style="width: 388px; height: 218px; left: 1052px; top: 482px; position: absolute" src="https://via.placeholder.com/388x218" />
-        <img style="width: 446px; height: 234px; left: -14px; top: 899px; position: absolute" src="https://via.placeholder.com/446x234" />
-        <img style="width: 487px; height: 544px; left: 974px; top: -62px; position: absolute" src="https://via.placeholder.com/487x544" />
-        <img style="width: 441px; height: 404px; left: 512px; top: 83px; position: absolute; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)" src="https://via.placeholder.com/441x404" />
-        <img style="width: 388px; height: 328px; left: 1052px; top: 696px; position: absolute" src="https://via.placeholder.com/388x328" />
-        <img style="width: 620px; height: 328px; left: 432px; top: 696px; position: absolute" src="https://via.placeholder.com/620x328" />
-        <img style="width: 130px; height: 237px; left: 860px; top: 106px; position: absolute" src="https://via.placeholder.com/130x237" />
-        <img style="width: 184px; height: 355px; left: 248px; top: 544px; position: absolute" src="https://via.placeholder.com/184x355" />
-        <div style="width: 100%; height: 100%; left: 0px; top: 0px; position: absolute; background: rgba(0, 0, 0, 0.70); backdrop-filter: blur(10px)"></div>
-        <div style="width: 100%; height: 130px; left: 0px; top: 0px; position: absolute">
-          <div style="width: 1440px; height: 130px; left: 0px; top: 0px; position: absolute; background: #B8B1B1"></div>
-          <div style="width: 107px; height: 45px; left: 666px; top: 85px; position: absolute; color: black; font-size: 36px; font-family: Homenaje; font-weight: 400; word-wrap: break-word">ArtStudio</div>
+  <div class="container">
+    <div class="header">
+        <h2>Crie sua conta</h2>
+    </div>
+    <form id="form" class="form">
+        <div class="form-control">
+            <label for="username">Nome de usuário</label>
+            <input type="text" id="username" placeholder="Digite seu nome de usuário">
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de erro</small>
         </div>
-        <img style="width: 80px; height: 80px; left: 680px; top: 8px; position: absolute; mix-blend-mode: hard-light; border-radius: 9999px" src="https://via.placeholder.com/80x80" />
-        <div style="width: 640px; height: 470px; left: 412px; top: 343px; position: absolute; background: #EBEBEB; border-radius: 5px"></div>
-        <div style="width: 131px; height: 71px; left: 655px; top: 365px; position: absolute; color: black; font-size: 64px; font-family: Homenaje; font-weight: 400; word-wrap: break-word">LOGIN</div>
-        <div style="width: 510px; height: 50px; left: 464px; top: 494px; position: absolute; background: #D9D9D9"></div>
-        <div style="width: 267px; height: 23px; left: 465px; top: 471px; position: absolute; color: black; font-size: 20px; font-family: Hind Madurai; font-weight: 400; word-wrap: break-word">Email ou nome de usuário</div>
-        <div style="width: 267px; height: 23px; left: 465px; top: 567px; position: absolute; color: black; font-size: 20px; font-family: Hind Madurai; font-weight: 400; word-wrap: break-word">Senha</div>
-        <div style="width: fit-content; height: 23px; left: 953px; top: 979px; position: absolute; color: white; font-size: 20px; font-family: Hind Madurai; font-weight: 400; word-wrap: break-word">Não tem uma conta? Venha para o lado artístico da força!</div>
-        <div style="width: fit-content; height: 23px; left: 5%; top: 971px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Hind Madurai; font-weight: 400; word-wrap: break-word">Esqueceu sua senha? Acontece, nós te ajudamos</div>
-        <div style="width: 191px; height: 50px; left: 625px; top: 721px; position: absolute; background: #B8B1B1; border-radius: 10px"></div>
-        <div style="width: 113px; height: 39px; left: 664px; top: 727px; position: absolute; color: black; font-size: 40px; font-family: Homenaje; font-weight: 400; word-wrap: break-word">ENTRAR</div>
-        <div style="width: 510px; height: 50px; left: 465px; top: 594px; position: absolute; background: #D9D9D9"></div>
-      </div> 
+
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Digite seu email">
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+            <label for="password">Senha</label>
+            <input type="password" id="password" placeholder="Digite sua senha">
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de erro</small>
+        </div>
+
+        <div class="form-control">
+            <label for="password-confirmation">Confirme sua senha</label>
+            <input type="password" id="password-confirmation" placeholder="Confirme sua senha">
+            <i class="fas fa-exclamation-circle"></i>
+            <i class="fas fa-check-circle"></i>
+            <small>Mensagem de erro</small>
+        </div>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</div>
+<script src="https://kit.fontawesome.com/e5fe4ca922.js" crossorigin="anonymous"></script>
+<script src="login.js"></script>
 </body>
 </html>
