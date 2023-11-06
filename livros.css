@@ -46,4 +46,27 @@ img {font-size: 25%; position: absolute; color: white; font-family: Exo; font-we
     display:contents;
     padding: 14px 16px;}
 
-    /* position: absolute
+    .Livros{
+     width: 258px; 
+     height: 74px; 
+     left: 790px; 
+     top: 70px; 
+     position: absolute;
+ }
+ .geral{
+      width: 100%; 
+      height: 878px; 
+      left: 0px; 
+      top: 90px; 
+      position: absolute; 
+      }
+ 
+ .Line1{
+      text-align: center;
+      width: 150px; 
+      height: 0px; 
+      left: 755px; 
+      top: 110px; 
+      position: absolute; 
+      border: 2px black solid;
+      }    
