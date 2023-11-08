@@ -13,15 +13,11 @@ body {position: relative; background: white;}
     position: absolute; 
     background: #B8B1B1; 
     text-align: center;
-    align-items: center;
-    align-self: center;
-    align-content: center;
-    align-tracks: center;
     display: block;}
     .header img{width: fit-content; height: 122px; top: 8px; position: absolute;text-align: center;}
 .navbar {
     overflow: hidden;
-    background-color: #E5E5E5; 
+    background-color: #B8B1B1;
     top: 128px; 
     font-family: 'HindMadurai-Regular', sans-serif;
     font-size: 16px; 
