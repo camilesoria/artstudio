@@ -7,14 +7,21 @@
 @media screen and (max-width: 400px){.navbar a {float: none; width: 100%;}}
 body {position: relative; background: white;}
 
+
+*{
+    margin: 0 auto;
+}
 .header {
     width: 100%; 
     height:130px; 
     position: absolute; 
     background: #B8B1B1; 
     text-align: center;
-    display: block;}
-    .header img{width: fit-content; height: 122px; top: 8px; position: absolute;text-align: center;}
+    display: block;
+    
+}
+
+.header img{width: fit-content; height: 122px; top: 8px; position: absolute;text-align: center;}
 .navbar {
     overflow: hidden;
     background-color: #B8B1B1;

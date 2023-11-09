@@ -9,9 +9,9 @@
 body {position: relative; background: white;}
 
 *{
-     margin: 0 auto;
- }
- 
+    margin: 0 auto;
+}
+
 .header {width: 100%; height:130px; position: absolute; background: #B8B1B1; text-align: center; display: block;}
 .navbar {overflow: hidden;background-color: #B8B1B1; top: 128px; font-family: 'HindMadurai-Regular', sans-serif;font-size: 16px; font-weight: 400; word-wrap: break-word;}
 .navbar a:hover {background-color: #B8B1B1; color: #ffffff;}
@@ -74,4 +74,9 @@ img {font-size: 25%; position: absolute; color: white; font-family: Exo; font-we
       top: 110px; 
       position: absolute; 
       border: 2px black solid;
-      }    
+      }  
+
+      a{
+        text-decoration:underline 1px;
+         color: black;
+     }
