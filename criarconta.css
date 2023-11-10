@@ -7,7 +7,7 @@
 @font-face {font-family: 'Convergence'; src: url('Fontes/Convergence-Regular.ttf') format('truetype');}
 h2{font-family: 'Exo';}
 form{font-family: 'Hind Madurai';}
-*{box-sizing: border-box; margin: 0; padding: 0;}
+*{box-sizing: border-box; margin: 0 auto; padding: 0;}
 body{width: 100%; min-height: 100vh; background-image: url(Imagens/minhacontaeloginbackground.png); display: flex;justify-content: center; align-items: center;}
 .container{overflow: hidden;background-color: #ebebeb; border-radius: 10px; box-shadow: o 2px 5px rgba(0, 0, 0, 0.3); width: 400px; max-width: 100%;}
 .header{background-color: #e5e5e5; padding: 20px}
