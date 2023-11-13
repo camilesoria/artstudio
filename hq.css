@@ -21,7 +21,7 @@ body {position: relative; background: white;}
 .dropdown-content a {float: none;color: black; padding: 12px 16px;text-decoration: none;display: block;text-align: left;}
 .dropdown-content a:hover { background-color: #B8B1B1; }
 .dropdown:hover .dropdown-content { display: block;}
-img {font-size: 25%; position: absolute; color: white; font-family: Exo; font-weight: 400; word-wrap: break-word}
+img {position: absolute;}
 .tagtitle {width: fit-content; height: 109px; left: 5%; top: 203px; position: absolute; color: black; font-size: 32px; font-family: Comfortaa; font-weight: 400; word-wrap: break-word}
 .tagdescription{color: black; font-size: 16px; font-family: Duru Sans; font-weight: 400; word-wrap: break-word; width: fit-content; height: 109px; left: 5%; top: 203px; position: absolute; padding-top: 5%;}
 .card{padding: 20px; margin-top: 20px; width: fit-content; height: 480px;}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="participe.css">
+    <link rel="icon" type="image/x-icon" href="Logo.png">
+    <title>Participe | ArtStudio</title>
+</head>
+<body>
+  <header class="header">
+    <img style="width: 107px; height: 122px; top: 8px; position: absolute; mix-blend-mode: hard-light;" src="Group 2.png" >
+    <div class="navbar">
+      <div class="dropdown">
+        <button class="dropbtn">Artes 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="arquitetura.html">Arquitetura</a>
+          <a href="artedigital.html">Arte digital</a>
+          <a href="cinema.html">Cinema</a>
+          <a href="dança.html">Dança</a>
+          <a href="escultura.html">Escultura</a>
+          <a href="fotografia.html">Fotografia</a>
+          <a href="hq.html">Histórias em quadrinhos</a>
+          <a href="jogoseletronicos.html">Jogos eletrônicos</a>
+          <a href="livros.html">Literatura</a>
+          <a href="musica.html">Música</a>
+          <a href="pintura.html">Pintura</a>
+          <a href="teatro.html">Teatro</a>
+        </div>
+      </div> 
+      <a href="paginainicial.html">Página inicial</a>
+      <a href="participe.html">Participe</a>
+      <a href="minhaconta.html" style="float:right">Minha Conta</a>
+  </header>
+    <div class="tagtitle">Participe</div>
+    <div style="width: fit-content; height: 106px; left: 52px; top: 313px; position: absolute;" class="tagdescription">Você é artista? Não se preocupe, não precisa dominar técnicas de pintura, ser o melhor dançarino ou o novo Beethoven da parada pra ter um espaço na arte. Aqui, apoiamos artistas novatos, de sangue fresquinho, mas fervente, ávidos para mostrar sua arte para o mundo.</div>
+        
+    <div style="width: 733px; height: 450px; left: 52px; top: 532px; position: absolute; background: #D9D9D9; border-radius: 57px"></div>
+    
+    <form action="" onsubmit="return false;">
+        <label for="description">Descrição da obra</label><br>
+        <input type="text" id="description" name="description" required class="inputDesc" placeholder="Descrição da obra"><br>
+
+    <label for="tipo" class="labelTipo">Tipo de arte:</label>
+            <select id="tipo" name="tipo"class="inputTipo">
+              <option value="" class="option" selected>Tipo de obra</option>
+              <option value="arquitetura" class="option">Arquitetura</option>
+              <option value="artedigital" class="option">Arte Digital</option>
+              <option value="cinema" class="option">Cinema</option>
+              <option value="danca" class="option">Dança</option>
+              <option value="escultura" class="option">Escultura</option>
+              <option value="fotografia" class="option">Fotografia</option>
+              <option value="hq" class="option">Histórias em quadrinhos</option>
+              <option value="jogoseletronicos" class="option">Jogos eletrônicos</option>
+              <option value="literatura" class="option">Literatura</option>
+              <option value="musica" class="option">Música</option>
+              <option value="pintura" class="option">Pintura</option>
+              <option value="teatro" class="option">Teatro</option>
+            </select>
+      <input type="submit">
+
+  <label for="venda" class="labelVenda">Está à venda?</label>
+            <select id="venda" name="venda" class="inputVenda">
+              <option value="vendasn" class="option" selected>Está à venda?</option>
+              <option value="sim" class="option">Sim</option>
+              <option value="nao" class="option">Não</option>
+              <option value="negociavel" class="option">Negociável</option>
+            </select>
+            <input type="submit">
+
+            <label for="obra" class="labelObra">Nome da obra:</label><br>
+            <input type="text" id="obra" name="obra" required class="inputObra" placeholder="Nome da obra"><br>
+
+            <label for="autor" class="labelAutor">Nome da obra:</label><br>
+            <input type="text" id="autor" name="autor" required class="inputAutor" placeholder="Nome do autor"><br>
+</form>
+
+        <div style="width: fit-content; height: 35px; left: 1034px; top: 487px; position: absolute;" class="tagdescription">Envie sua obra!</div>
+       
+
+
+
+
+        <div style="width: 422px; height: 350px; left: 918px; top: 532px; position: absolute; background: #D9D9D9; border-radius: 57px"></div>
+        <div style="width: fit-content; height: 35px; left: 88px; top: 487px; position: absolute;" class="tagdescription">Dados da obra:</div>
+        <div style="width: 140px; height: 140px; left: 1059px; top: 637px; position: absolute">
+
+        <form action="/action_page.php" enctype="multipart/form-data">
+        <label for="myfile" ><i class="fa-solid fa-download" style="color: #ffffff; font-size: 140px;"></i></label>
+        <input type="file" id="myfile" name="myfile" class="tagdescription" />
+        <br /><br />
+        <button type="submit">Enviar</button>
+    </form>
+      <script src="https://kit.fontawesome.com/e5fe4ca922.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
