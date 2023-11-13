@@ -13,7 +13,6 @@ function checkInputs() {
     const usernameValue = username.value
     const emailValue = email.value
     const passwordValue = password.value
-    const passwordConfirmationValue = passwordConfirmation.value
 
     if (usernameValue === ''){
         setErrorFor(username, "O nome de usuário é obrigatório.");
@@ -35,12 +34,6 @@ function checkInputs() {
     }
     else{setSuccessFor(password);}
 
-    if (passwordConfirmationValue === ''){
-        setErrorFor(passwordConfirmation, 'A confirmação de senha é obrigatória.')
-    }else if(passwordConfirmationValue != passwordValue ){
-        setErrorFor(passwordConfirmation, 'As senhas não conferem.')
-    }
-    else{setSuccessFor(passwordConfirmation);}
 
     const formControls = form.querySelectorAll(".form-control");
     const formIsValid = [...formControls].every((formControl) => {
