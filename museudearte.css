@@ -6,7 +6,7 @@
 @font-face {font-family: 'Convergence'; src: url('Fontes/Convergence-Regular.ttf') format('truetype');}
 
 @media screen and (max-width: 400px){.navbar a {float: none; width: 100%;}}
-body{background-image: url('Imagens/Teatro/imagemfantasma3.png'); background-repeat: no-repeat; background-size: cover;}
+body{background-image: url('Imagens/Arquitetura/museudearte.png'); background-repeat: no-repeat; background-size: cover;}
 
 /*body, html{background: linear-gradient(black 0%, rgba(12.75, 12.64, 12.64, 0) 79%);}*/
 
